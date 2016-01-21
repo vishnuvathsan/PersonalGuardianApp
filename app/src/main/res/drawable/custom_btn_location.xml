@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:drawable="@drawable/ic_location_on_red_900_24dp" android:state_pressed="true" />
+    <item android:drawable="@drawable/ic_location_on_red_a400_24dp" android:state_focused="true" />
+    <item android:drawable="@drawable/ic_location_on_grey_600_24dp" />
+
+</selector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/groupTop"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_grey_600_24dp"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_grey_600_24dp"
+            android:title="Google Map" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_grey_600_24dp"
+            android:title="Settings" />
+    </group>
+
+    <group
+        android:id="@+id/groupBottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_power_settings_new_grey_600_24dp"
+            android:title="Sign Out" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_grey_600_24dp"
+            android:title="Exit" />
+    </group>
+
+</menu>
