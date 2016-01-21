@@ -110,35 +110,7 @@ public class Constants {
     }
 
     public static final class WebServiceUrls {
-        /**
-         * URL for ConTra service(server).
-         */
-        public static final String CONTRA_SERVICE_URL = "http://contra.projects.mrt.ac.lk:8080/ConTra";
 
-        /**
-         * URL Get Nearby friends Data.
-         */
-        public static final String GET_NEARBY_FRIENDS_DATA_URL = CONTRA_SERVICE_URL + "/contextprovider/nearbyfriends/{query}";
-
-        /**
-         * URL Post Sensor Data.
-         */
-        public static final String SEND_SENSOR_DATA_URL = CONTRA_SERVICE_URL + "/sensordatareceiver/save";
-
-        /**
-         * URL Register User.
-         */
-        public static final String REGISTER_USER_SERVICE_URL = CONTRA_SERVICE_URL + "/user/register";
-
-        /**
-         * URL Get User Profile.
-         */
-        public static final String RETRIEVE_USER_PROFILE_URL = CONTRA_SERVICE_URL + "/user/profile/{query}";
-
-        /**
-         * URL Update User.
-         */
-        public static final String UPDATE_USER_PROFILE_URL = CONTRA_SERVICE_URL + "/user/updateprofile";
     }
 
     public static final class MessagePassingCommands {
